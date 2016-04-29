@@ -9,12 +9,13 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/github.com/Adrien-P/mangopay2-go-sdk"
 	"log"
 	"os"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/Adrien-P/mangopay2-go-sdk"
 )
 
 const (
