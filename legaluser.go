@@ -54,8 +54,8 @@ func (u *LegalUser) Wallets() (WalletList, error) {
 }
 
 // Transfer gets all user's transaction.
-func (u *LegalUser) Transfers(t string, status string) (TransferList, error) {
-	trs, err := u.service.transfers(u, t, status)
+func (u *LegalUser) Transfers(t string, status string, sort string) (TransferList, error) {
+	trs, err := u.service.transfers(u, t, status, sort)
 	return trs, err
 }
 
